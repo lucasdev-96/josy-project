@@ -102,16 +102,16 @@
 
 
 .modal-content {
-    background: linear-gradient(to right, rgb(236, 75, 75), rgb(255, 155, 155));
-    color: yellow;
+    color: black;
     /* font-family: 'Playfair Display', serif; */
     font-family: 'Bangers', cursive;
-    font-size: 25px;}
+    background-color: gray;
+    font-size: 25px;
+}
 
 .modal-body p {
     font-size: 25px;
     margin-left: 5px;
-    color: white;
 }
 
 

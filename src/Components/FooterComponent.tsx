@@ -19,7 +19,7 @@ function FooterComponent() {
             <h3>Redes Sociais</h3>
             <ul className="list-unstyled">
               <li>
-                <a  target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=5519983201604&text=">Whatssap</a>
+                <a  target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=5519983201604&text">Whatssap</a>
               </li>
               <li>
                 <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jofpessoa/">Instagram</a>

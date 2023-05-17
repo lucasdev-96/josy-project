@@ -22,6 +22,8 @@ function App() {
         phoneNumber="5519983201604"
         accountName="Josi"
         allowEsc
+        darkMode
+        notification
         chatMessage="Olá no que podemos ajudar?"
         avatar={josi}
         placeholder="Escreva sua mensagem..."
