@@ -1,8 +1,16 @@
 .values h3 {
-    color: #4B5320;
+    color: #333333;
+    width: 30%;
+    margin:auto;;
     background-color: rgb(236, 75, 75);;
     text-align: center;
     padding: 10px;
+    background-color:rgb(236, 75, 75);
+    box-shadow: 0 0 20px rgba(150, 149, 149, 0.847);
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
 }
 
 .values {
@@ -12,7 +20,7 @@
 }
 
 .values section {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #878787;
     display: grid;
@@ -25,13 +33,28 @@
 @media  (max-width: 800px) {
     .values section {
         font-size: 15px;
+        
         gap: 15px; /* espaço entre os itens */
     }
+    .values h3 {
+        width: 80%;
+        }
   }
 
   @media  (max-width: 400px) {
     .values section {
         font-size: 12px;
         gap: 15px;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .values h3 {
+        width: 80%;
+    }
+
+    .values section {
+        font-size: 8px;
+        gap: 5px;
     }
   }

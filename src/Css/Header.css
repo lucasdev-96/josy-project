@@ -1,11 +1,11 @@
 .header {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     opacity: 1;
-    background-image: url('../Assets/Imgs/cristo.jpg');
+    background-image: url('../Assets/Imgs/airplane.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,8 +68,6 @@
 .buttons  button    {
     background-color: rgb(243, 100, 100);
     box-shadow: 2px 2px 2px 2px black;
-    
-    margin-right: 30px;
     border-radius: 10px;
     width: 200px;
     height: 50px;
@@ -78,7 +76,7 @@
 .buttons_pers {
     text-decoration: none;
     font-family: 'Lobster', cursive;
-    color: #4B5320;
+    color: #333333;
 }
 
 .buttons_pers:hover {
@@ -96,17 +94,24 @@
 
 .btn-primary:hover {
     background-color: rgb(243, 100, 100);
-
 }
 
+
+
+
 .modal-content {
-    background-color: rgb(236, 75, 75);
-    color: #4B5320;
+    background: linear-gradient(to right, rgb(236, 75, 75), rgb(255, 155, 155));
+    color: #333333;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 20px;
     font-weight: bold;
 }
 
 
 @media (max-width:990px){
+    .navbar-nav {
+        padding: 10px;
+    }
 	.container > button {
         background-color:  rgb(243, 100, 100)
     }
@@ -115,5 +120,11 @@
     }
     .buttons_pers {
         margin-top: 10px;
+    }
+}
+
+@media (min-width:991px){
+    .buttons  button {
+        margin-left: 30px;
     }
 }

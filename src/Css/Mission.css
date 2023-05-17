@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #4B5320;
+    color:  #333333;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -60,9 +60,10 @@
 
 @media (max-width:990px){
 	#mission {
-        flex-direction: column
+        flex-direction: column;
+        padding: 20px;
     }
-    .misson_phrase {
+    .Mission .misson_phrase {
         font-size: 15px;
         text-align: center;
         padding-right: 80px;

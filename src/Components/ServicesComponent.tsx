@@ -27,7 +27,7 @@ export const ServicesComponent = () => {
       }, []);
     return (
         <div id="services" className="values">
-            <h3>Nossos Serviços: </h3>
+            <h3>Nossos Serviços </h3>
             <div style={{display: 'flex', justifyContent: 'center'}}>
             <section data-aos="fade-right" className='section_infos'>
                 <p><GiPassport />  Vistos</p>

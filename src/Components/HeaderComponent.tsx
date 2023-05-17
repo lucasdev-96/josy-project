@@ -2,6 +2,8 @@ import { Button, Modal } from "react-bootstrap"
 import "../Css/Header.css"
 import NavBarComponent from "./NavbarComponent"
 import { useState } from "react";
+import { ImArrowRight } from "react-icons/im"
+import { ImArrowDownRight } from "react-icons/im"
 
 export const HeaderComponent = () => {
     const [show, setShow] = useState(false);
@@ -29,9 +31,9 @@ export const HeaderComponent = () => {
                     Missão e valores
             </button>
                 </a>
-      <Button className="buttons_pers"  onClick={handleShow}>
-        Teste
-      </Button>
+      <button className="buttons_pers"  onClick={handleShow}>
+        Mentorias
+      </button>
 
       <Modal
         show={show}
@@ -44,11 +46,33 @@ export const HeaderComponent = () => {
         animation
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>
+            <div style={{display: 'flex', alignItems: 'center'}}>
+            <ImArrowRight /> 
+            <h3 style={{marginLeft: '10px'}}>Como funciona nossas mentorias ?</h3>
+            </div>
+            </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Dont even try to press
-          escape key.
+        <div >
+            <ImArrowDownRight /> 
+            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>Mentoria em milhas aéreas - individual
+              De acordo com a disponibilidade do cliente (em torno de 6 a 10 aulas).</p>
+            </div>
+            <div >
+            <ImArrowDownRight /> 
+            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>
+              Assesorias em cartões de créditos</p>
+            </div>
+            <div >
+            <ImArrowDownRight /> 
+            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>{`Gestor em milhas - para aqueles que não querem "por a mão na massa"`}</p>
+            </div>
+            <div >
+            <ImArrowDownRight /> 
+            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>Close friends - grupo de alerta das melhores oportunidades do mercado.</p>
+            </div>
+    
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
