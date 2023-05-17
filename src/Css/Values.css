@@ -1,0 +1,37 @@
+.values h3 {
+    color: #4B5320;
+    background-color: rgb(236, 75, 75);;
+    text-align: center;
+    padding: 10px;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.values section {
+    font-size: 25px;
+    font-weight: 600;
+    color: #878787;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* três colunas com largura igual */
+    grid-template-rows: repeat(3, 1fr); /* três linhas com altura igual */
+    gap: 80px; /* espaço entre os itens */
+    padding: 50px;
+}
+
+@media  (max-width: 800px) {
+    .values section {
+        font-size: 15px;
+        gap: 15px; /* espaço entre os itens */
+    }
+  }
+
+  @media  (max-width: 400px) {
+    .values section {
+        font-size: 12px;
+        gap: 15px;
+    }
+  }

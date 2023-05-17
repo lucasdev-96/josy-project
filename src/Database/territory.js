@@ -1,12 +1,13 @@
 import jalapao from "../Assets/Imgs/Jalapão.jpg"
 import jericoacoara from "../Assets/Imgs/jericoacoara.jpg"
 import natal from "../Assets/Imgs/Natal.jpg"
-import maranhao from "../Assets/Imgs/Maranhão (2).jpg"
-import newYork from "../Assets/Imgs/new york.jpg"
+import maranhao from "../Assets/Imgs/maranhao.jpg"
+import newYork from "../Assets/Imgs/newyork.jpg"
 import london from "../Assets/Imgs/london.jpg"
 import paris from "../Assets/Imgs/Paris.jpg"
 import maldivas from "../Assets/Imgs/maldivas.jpg"
 import sanAndreas from "../Assets/Imgs/San-Andres.jpg"
+
 
 
 
@@ -23,5 +24,5 @@ export const territory = {
     {name :  "Londres", img: london},
     {name :  "Maldivas", img: maldivas},
     {name :  "San andres (Colômbia)", img: sanAndreas}
-]
+    ]
 }

@@ -1,0 +1,77 @@
+.Mission {
+    background-color: rgb(236, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4B5320;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.Mission > div > h3 {
+    padding: 30px;
+}
+
+.Mission > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Mission .misson_phrase {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.Mission_values {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(236, 75, 75);
+
+}
+
+.Mission_values li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.Mission_values h3 {
+    padding: 20px;
+}
+
+.misson_icons {
+    font-size: 80px;
+}
+
+@media (min-width:991px) {
+    .Mission .misson_phrase {
+        width: 500px;
+        padding: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:990px){
+	#mission {
+        flex-direction: column
+    }
+    .misson_phrase {
+        font-size: 15px;
+        text-align: center;
+        padding-right: 80px;
+        padding-left: 80px;
+        padding-bottom: 80px;
+    }
+ 
+    .Mission_values li {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

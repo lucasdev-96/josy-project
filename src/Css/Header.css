@@ -1,0 +1,119 @@
+.header {
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    background-image: url('../Assets/Imgs/cristo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.751); */
+}
+
+.header > .nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 4, 4, 0.1);
+  } */
+
+.navbar-nav > a {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color:  rgb(243, 100, 100)
+}
+
+.navbar-nav > a:hover {
+    color: rgb(231, 85, 85);
+    font-size: 30px;
+
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(231, 85, 85)
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text > .h3 {
+    font-size: 50px;
+    height: 50%;
+    color: rgb(236, 75, 75);
+    line-height: 1.5;
+    font-family: fantasy;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons  button    {
+    background-color: rgb(243, 100, 100);
+    box-shadow: 2px 2px 2px 2px black;
+    
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons_pers {
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: #4B5320;
+}
+
+.buttons_pers:hover {
+    color: black;
+}
+
+.icon {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    font-size: 50px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(243, 100, 100);
+
+}
+
+.modal-content {
+    background-color: rgb(236, 75, 75);
+    color: #4B5320;
+    font-weight: bold;
+}
+
+
+@media (max-width:990px){
+	.container > button {
+        background-color:  rgb(243, 100, 100)
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons_pers {
+        margin-top: 10px;
+    }
+}
