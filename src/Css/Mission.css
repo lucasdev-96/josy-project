@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color:  #333333;
+    color:  yellow;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -11,6 +11,10 @@
 
 .Mission > div > h3 {
     padding: 30px;
+}
+
+.Mission h3 {
+    color: white;
 }
 
 .Mission > div {
@@ -21,7 +25,6 @@
 
 .Mission .misson_phrase {
     font-size: 15px;
-    font-weight: bold;
     text-align: justify;
 }
 
@@ -47,6 +50,7 @@
 
 .misson_icons {
     font-size: 80px;
+    color: white;
 }
 
 @media (min-width:991px) {

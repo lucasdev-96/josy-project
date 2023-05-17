@@ -49,28 +49,28 @@ export const HeaderComponent = () => {
           <Modal.Title>
             <div style={{display: 'flex', alignItems: 'center'}}>
             <ImArrowRight /> 
-            <h3 style={{marginLeft: '10px'}}>Como funciona nossas mentorias ?</h3>
+            <h1 className="modal_infos" style={{marginLeft: '10px'}}>Como funciona nossas mentorias ?</h1>
             </div>
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <div >
             <ImArrowDownRight /> 
-            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>Mentoria em milhas aéreas - individual
-              De acordo com a disponibilidade do cliente (em torno de 6 a 10 aulas).</p>
+            <p className="p_modal">Mentoria em milhas aéreas - individual
+              De acordo com a disponibilidade do cliente (em torno de 6 a 10 aulas)</p>
             </div>
             <div >
             <ImArrowDownRight /> 
-            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>
+            <p className="p_modal" >
               Assesorias em cartões de créditos</p>
             </div>
             <div >
             <ImArrowDownRight /> 
-            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>{`Gestor em milhas - para aqueles que não querem "por a mão na massa"`}</p>
+            <p className="p_modal" >{`Gestor em milhas - para aqueles que não querem "por a mão na massa"`}</p>
             </div>
             <div >
             <ImArrowDownRight /> 
-            <p style={{marginLeft: '10px', fontWeight: 'bold', fontSize: '18px'}}>Close friends - grupo de alerta das melhores oportunidades do mercado.</p>
+            <p className="p_modal" >Close friends - grupo de alerta das melhores oportunidades do mercado</p>
             </div>
     
         </Modal.Body>

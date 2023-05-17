@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { GiAirplaneDeparture } from 'react-icons/gi'
 function NavBarComponent() {
   return (
-    <Navbar sticky='top' collapseOnSelect expand="xxl" variant="dark">
+    <Navbar sticky='top' collapseOnSelect expand="md" variant="dark">
     <Container>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
