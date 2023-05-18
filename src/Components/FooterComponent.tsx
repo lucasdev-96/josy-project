@@ -31,11 +31,16 @@ function FooterComponent() {
             <ul className="list-unstyled">
               <li>
               <GrInstagram className="links_icon" /> 
-                <a className="links_a" target="_blank" rel="noreferrer" href="https://www.instagram.com/mariaclaraleitao.adv/">&nbsp; Maria Clara Leitão</a>
+                <a className="links_a" target="_blank" rel="noreferrer" href="https://www.instagram.com/mariaclaraleitao.adv/">Maria Clara Leitão(ADV)</a>
+              </li>
+              <li className="li_father">
+                
+                <GrInstagram className="links_icon" /> 
+                <a className="links_a" target="_blank" rel="noreferrer" href="https://www.instagram.com/camentoriadigital/">Ca Mentoria Digital</a>
               </li>
               <li className="li_father">
                 <GrInstagram className="links_icon" /> 
-                <a className="links_a" target="_blank" rel="noreferrer" href="https://www.instagram.com/camentoriadigital/">Ca Mentoria Digital</a>
+                <a className="links_a" target="_blank" rel="noreferrer" href="https://www.instagram.com/lucazgodoy/">Lucas Mazuca Godoi(Dev)</a>
               </li>
             </ul>
           </div>

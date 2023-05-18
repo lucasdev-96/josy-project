@@ -9,7 +9,7 @@ export const InfosComponent = () => {
             <div className='infos_img' style={{justifyContent: 'space-between'}}>
             {territory.brazilian.map((data ) => (
                 <>
-                <div className='child_img'  style={{
+                <div className='child_img' style={{
                 padding: '10px',
                 backgroundImage: `url(${data.img})`,
                 backgroundSize: "cover",

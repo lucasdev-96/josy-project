@@ -13,16 +13,16 @@ import sanAndreas from "../Assets/Imgs/San-Andres.jpg"
 
 export const territory = {
   brazilian: [
-    {name : "Jericoacoara", img: jericoacoara},
-    {name : "Natal", img: natal},
-    {name :  "Lençóis Maranhenses", img: maranhao},
-    {name :  "Jalapão", img: jalapao}
+    {name : "Jericoacoara", img: jericoacoara, alt: 'Jericoacoara'},
+    {name : "Natal", img: natal, alt: 'Natal'},
+    {name :  "Lençóis Maranhenses", img: maranhao, alt: 'Maranhao'},
+    {name :  "Jalapão", img: jalapao, alt: 'Jalapão'}
   ],
   international: [ 
-    {name :  "Nova York", img: newYork},
-    {name :  "Paris", img: paris},
-    {name :  "Londres", img: london},
-    {name :  "Maldivas", img: maldivas},
-    {name :  "San andres (Colômbia)", img: sanAndreas}
+    {name :  "Nova York", img: newYork, alt: 'Nova york'},
+    {name :  "Paris", img: paris, alt: 'Paris'},
+    {name :  "Londres", img: london, alt: 'Londres'},
+    {name :  "Maldivas", img: maldivas, alt: 'Maldivas'},
+    {name :  "San andres (Colômbia)", img: sanAndreas, alt: 'San andres (Colômbia)'}
     ]
 }
