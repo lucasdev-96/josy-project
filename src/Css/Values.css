@@ -1,12 +1,11 @@
 .values h3 {
     color: white;
     width: 30%;
-    margin:auto;;
-    background-color: rgb(236, 75, 75);;
+    margin:auto;
+    background-color: rgb(236, 75, 75);
     text-align: center;
     padding: 10px;
-    background-color:rgb(236, 75, 75);
-    box-shadow: 0 0 20px rgba(150, 149, 149, 0.847);
+    box-shadow: 2px 2px 2px 2px gray;
     border-radius: 50px;
     font-size: 25px;
     font-family: 'Lobster', cursive;

@@ -18,7 +18,7 @@ export const HeaderComponent = () => {
         </div>
         <div className="text">
             <div className="h3">
-            <h3>Jo Pessoa Agência de viagem digital</h3>
+            <h3>Jo Pessoa - Agência de viagem digital</h3>
             </div>
             <div className="buttons">
             <a href="#destiny">

@@ -58,8 +58,18 @@
     font-size: 50px;
     height: 50%;
     color: rgb(236, 75, 75);
-    line-height: 1.5;
-    font-family: fantasy;
+    font-weight: 900;
+}
+
+.h3 > h3 {
+    background-color: rgb(243, 100, 100);
+    color: white;
+    padding: 19px;
+    border-radius: 50px;
+    font-family: 'Lobster', cursive;
+    box-shadow: 2px 2px 2px 2px gray;
+
+
 }
 
 .buttons {
@@ -134,10 +144,19 @@
     .modal_infos {
         font-size: 20px;
     }
+    .h3 > h3 {
+        font-size: 16px;
+    }
 }
 
 @media (min-width:991px){
     .buttons  button {
         margin-left: 30px;
+    }
+}
+
+@media (max-width:300px) {
+    .h3 > h3 {
+        font-size: 16px;
     }
 }
