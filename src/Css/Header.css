@@ -78,7 +78,6 @@
 
 .buttons  button    {
     background-color: rgb(243, 100, 100);
-    box-shadow: 2px 2px 2px 2px gray;
     border-radius: 10px;
     border: yellow;
     width: 200px;
@@ -87,7 +86,7 @@
 
 .buttons_pers {
     text-decoration: none;
-    font-family: 'Lobster', cursive;
+    font-weight: 500;
     color: white;
 }
 
@@ -152,6 +151,7 @@
 @media (min-width:991px){
     .buttons  button {
         margin-left: 30px;
+        box-shadow: 2px 2px 2px 2px gray;
     }
 }
 

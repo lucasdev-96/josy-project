@@ -12,6 +12,17 @@
 
 }
 
+.father_infos  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons_infos {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
 .values {
     display: flex;
     flex-direction: column;
@@ -27,9 +38,10 @@
     grid-template-rows: repeat(3, 1fr); /* três linhas com altura igual */
     gap: 80px; /* espaço entre os itens */
     padding: 50px;
+    text-align: center;
 }
 
-@media  (max-width: 800px) {
+@media  (max-width: 900px) {
     .values section {
         font-size: 15px;
         
@@ -50,6 +62,10 @@
   @media (max-width: 300px) {
     .values h3 {
         width: 80%;
+    }
+
+    .icons_infos {
+        font-size: 25px;
     }
 
     .values section {
