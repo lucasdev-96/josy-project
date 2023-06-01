@@ -23,6 +23,6 @@ export const territory = {
     {name :  "Paris", img: paris, alt: 'Paris'},
     {name :  "Londres", img: london, alt: 'Londres'},
     {name :  "Maldivas", img: maldivas, alt: 'Maldivas'},
-    {name :  "San andres (Colômbia)", img: sanAndreas, alt: 'San andres (Colômbia)'}
+    {name :  "San Andrés (Colômbia)", img: sanAndreas, alt: 'San Andrés (Colômbia)'}
     ]
 }

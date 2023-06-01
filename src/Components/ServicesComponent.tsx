@@ -34,8 +34,8 @@ export const ServicesComponent = () => {
                 <div className="father_infos"><FaPassport className='icons_infos' /> <p>Emissão de passaporte </p> </div>
                 <div className="father_infos"><BsTicketPerforatedFill className='icons_infos' /><p>Passagens aéreas </p></div>
                 <div className="father_infos"><RiSuitcase3Fill className='icons_infos' /><p>Montamos sua bagagem </p></div>
-                <div className="father_infos"><MdChangeCircle className='icons_infos' /><p>Mudança de pais </p> </div>
-                <div className="father_infos"><BsFillFlagFill className='icons_infos' /><p>Nacionalidade</p> </div>
+                <div className="father_infos"><MdChangeCircle className='icons_infos' /><p>Imigração Portuguesa</p> </div>
+                <div className="father_infos"><BsFillFlagFill className='icons_infos' /><p>Dupla Cidadania</p> </div>
                 <div className="father_infos"><FcSimCardChip className='icons_infos' /><p>Chip internacional </p></div>
                 <div className="father_infos"><BiHotel className='icons_infos' /><p>Hospedagem </p></div>
                 <div className="father_infos"><BsBusFront className='icons_infos' /><p>Transfer </p> </div>
